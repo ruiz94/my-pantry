@@ -1,0 +1,213 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "id_category": 1,
+      "category": "Produce",
+      "name": "Apple",
+      "nameIcon": "cil:apple",
+      "unit": "Kg",
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Orange Juice",
+      "nameIcon": "openmoji:beverage-box",
+      "unit": "Pza",
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Tea",
+      "nameIcon": "ic:baseline-emoji-food-beverage",
+      "unit": "Pza",
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "id_category": 5,
+      "category": "Dairy",
+      "name": "Eggs",
+      "nameIcon": "jam:eggs-f",
+      "unit": "Kg",
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "id_category": 5,
+      "category": "Dairy",
+      "name": "Eggs x2",
+      "nameIcon": "jam:eggs-f",
+      "unit": "Kg",
+      "quantity": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Produce"
+    },
+    {
+      "id": 2,
+      "name": "Bread/Bakery"
+    },
+    {
+      "id": 3,
+      "name": "Beverages"
+    },
+    {
+      "id": 4,
+      "name": "Canned/Jarred Goods"
+    },
+    {
+      "id": 5,
+      "name": "Dairy"
+    },
+    {
+      "id": 6,
+      "name": "Dry/Baking Goods"
+    },
+    {
+      "id": 7,
+      "name": "Frozen Foods"
+    },
+    {
+      "id": 8,
+      "name": "Meat"
+    },
+    {
+      "id": 9,
+      "name": "Cleaners"
+    },
+    {
+      "id": 10,
+      "name": "Personal Care"
+    }
+  ],
+  "shopping_lists": [
+    {
+      "id": "5c479c06-336a-44de-9bf3-966221a88e4d",
+      "name": "New Year's Eve",
+      "status": "pending",
+      "products": [
+        {
+          "id": 2,
+          "id_category": 3,
+          "category": "Beverages",
+          "name": "Orange Juice",
+          "nameIcon": "openmoji:beverage-box",
+          "unit": "Pza",
+          "quantity": 11,
+          "status": "pending"
+        },
+        {
+          "id": 4,
+          "id_category": 5,
+          "category": "Dairy",
+          "name": "Eggs",
+          "nameIcon": "jam:eggs-f",
+          "unit": "Kg",
+          "quantity": 7,
+          "status": "pending"
+        }
+      ],
+      "date": "2021-11-05T20:44:36.855Z"
+    },
+    {
+      "id": "fa2b2a50-46d4-4108-b6ee-0f905e1aa4bb",
+      "name": "Christmas",
+      "status": "pending",
+      "products": [
+        {
+          "id": 4,
+          "id_category": 5,
+          "category": "Dairy",
+          "name": "Eggs",
+          "nameIcon": "jam:eggs-f",
+          "unit": "Kg",
+          "quantity": 9,
+          "status": "pending"
+        }
+      ],
+      "date": "2021-11-05T20:45:03.072Z"
+    },
+    {
+      "id": "9b0cebe7-5e79-42c6-8c3f-926c44033f24",
+      "name": "New Year",
+      "status": "pending",
+      "products": [
+        {
+          "id": 1,
+          "id_category": 1,
+          "category": "Produce",
+          "name": "Apple",
+          "nameIcon": "cil:apple",
+          "unit": "Kg",
+          "quantity": 4,
+          "status": "pending"
+        }
+      ],
+      "date": "2021-11-05T20:47:20.738Z"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "id_category": 1,
+      "category": "Produce",
+      "name": "Apple",
+      "quantity": 5,
+      "unit": "Kg",
+      "nameIcon": "cil:apple"
+    },
+    {
+      "id": 2,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Lemon Juice",
+      "quantity": 3,
+      "unit": "Pza",
+      "nameIcon": "openmoji:beverage-box"
+    },
+    {
+      "id": 3,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Tea",
+      "quantity": 12,
+      "unit": "Pza",
+      "nameIcon": "ic:baseline-emoji-food-beverage"
+    },
+    {
+      "id": 4,
+      "id_category": 5,
+      "category": "Dairy",
+      "name": "Eggs",
+      "quantity": 1,
+      "unit": "Kg",
+      "nameIcon": "jam:eggs-f"
+    },
+    {
+      "id": 5,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Tea",
+      "quantity": 12,
+      "unit": "Pza",
+      "nameIcon": "ic:baseline-emoji-food-beverage"
+    },
+    {
+      "id": 6,
+      "id_category": 3,
+      "category": "Beverages",
+      "name": "Tea",
+      "quantity": 0,
+      "unit": "Pza",
+      "nameIcon": "ic:baseline-emoji-food-beverage"
+    }
+  ]
+}
